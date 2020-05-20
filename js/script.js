@@ -1,4 +1,4 @@
-document.getElementById('cta').innerHTML='Ecco la password più sicurisssima al mondo che neanche la cia con il suo squadrone di ingegnieri e haker riuscirà mai a scoprire e decriptare:'';
+document.getElementById('cta').innerHTML= 'Ecco la password più sicurisssima al mondo che neanche la cia con il suo squadrone di ingegnieri e haker riuscirà mai a scoprire e decriptare:';
 
  //richiesta nome
 var nome = prompt('Inserisci il tuo nome');
@@ -17,4 +17,4 @@ var passwordGenerator = nome + cognome + colorePreferito + '19';
 console.log (passwordGenerator);
 
 var passwordResult = passwordGenerator;
-document.getElementById('password').innerHTML=passwordResult;
+document.getElementById('password').innerHTML= passwordResult;
